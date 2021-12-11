@@ -30,6 +30,11 @@ export const Header = () => {
 
             <ul className="navbar-nav">
               <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/register">
+                  Реєстрація
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/login">
                   Вхід
                 </a>
