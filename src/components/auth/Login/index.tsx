@@ -25,8 +25,6 @@ const LoginPage: React.FC = () => {
     catch(ex) {
         console.log("Problem ", ex);
     }
-
-
   };
 
   const formik = useFormik({

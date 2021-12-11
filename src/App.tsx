@@ -4,12 +4,13 @@ import './App.css';
 import HomePage from './components/Home';
 import LoginPage from './components/auth/Login';
 import RegisterPage from './components/auth/Register';
+import DefaultLayout from './components/containers/DefaultLayout';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/" element={<DefaultLayout/>}>
           <Route index element={<HomePage/>}/>
           <Route path="login" element={<LoginPage/>}/>
           <Route path="register" element={<RegisterPage/>}/>
